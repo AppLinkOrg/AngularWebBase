@@ -82,7 +82,7 @@ export class AppBase implements OnInit {
     getInstInfo() {
         
         if (AppBase.StaticInstInfo == null) {
-            this.instApi.info({}, false).then((instinfo) => {
+            this.instApi.info({}, false).then((instinfo:any) => {
                 AppBase.StaticInstInfo = instinfo;
                 this.InstInfo = instinfo;
                 console.log(instinfo);
