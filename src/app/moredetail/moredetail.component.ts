@@ -5,12 +5,12 @@ import { ActivatedRoute, Params } from '@angular/router';
 import { InstApi } from 'src/providers/inst.api';
 
 @Component({
-  selector: 'app-heroes',
-  templateUrl: './heroes.component.html',
-  styleUrls: ['./heroes.component.scss'],
+  selector: 'app-moredetail',
+  templateUrl: './moredetail.component.html',
+  styleUrls: ['./moredetail.component.scss'],
   providers:[]
 })
-export class HeroesComponent extends AppBase {
+export class MoredetailComponent extends AppBase {
 
   constructor(
     public router: Router,
@@ -19,9 +19,12 @@ export class HeroesComponent extends AppBase {
   ) { 
     super(router,activeRoute,instApi);
   }
+  current=0;
+  imgs=[];
   onMyShow(){
- 
-  }
+    this.imgs = JSON.parse(this.params.url);
+    console.log(this.imgs)
+  } 
 
 
 }

@@ -1,0 +1,22 @@
+
+
+
+
+<div class="flex-row flex-column">
+    <div style="height:100px;"></div>
+    <div class="dan h3" >
+        
+        <div>单个识别</div>
+        <input type="file" class="inf" (change)="onechange($event.target.files)"> 
+    
+    </div>
+
+    <div style="height:100px;"></div>
+
+    <div class="pi h3" >
+        <div>批量识别</div>
+        <input type="file" class="inf" multiple     (change)="morechange($event.target.files)"> 
+    </div>
+
+
+</div>

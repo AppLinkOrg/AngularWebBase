@@ -5,13 +5,13 @@ import { HttpClient, HttpHeaders } from '@angular/common/http';
 export class ApiConfig {
 	
     public static getApiUrl() {
-        return "https://cmsdev.app-link.org/alucard263096/seatmap/api/";
+        return "https://cmsdev.app-link.org/alucard263096/zsd/api/";
     }
     public static getUploadPath() {
-        return "https://alioss.app-link.org/alucard263096/seatmap/";
+        return "https://alioss.app-link.org/alucard263096/zsd/";
     }
     public static getFileUploadAPI() {
-        return "https://cmsdev.app-link.org/alucard263096/seatmap/fileupload";
+        return "https://cmsdev.app-link.org/alucard263096/zsd/fileupload";
     }
 	
     public static ParamUrlencoded(json) {

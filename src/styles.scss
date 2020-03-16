@@ -1,8 +1,13 @@
 /* You can add global styles to this file, and also import other style files */
+// @import "~bootstrap/scss/bootstrap";
+// @import "../node_modules/startbootstrap-sb-admin-2/vendor/fontawesome-free/css/all.min.css";
+// //@import "../node_modules/npm-font-open-sans/open-sans.css";
+
+// @import "../node_modules/startbootstrap-sb-admin-2/css/sb-admin-2.min.css";
+
 @import "~bootstrap/scss/bootstrap";
 $fa-font-path: "../node_modules/font-awesome/fonts";
 @import "../node_modules/font-awesome/scss/font-awesome.scss";
-
 
 
 .flex-row {
@@ -71,7 +76,7 @@ $fa-font-path: "../node_modules/font-awesome/fonts";
   }
   
   .primary-block {
-    background: #2699EC;
+    background: #3d61b4;
     color: white;
   }
   
@@ -84,7 +89,7 @@ $fa-font-path: "../node_modules/font-awesome/fonts";
   }
   
   .bg-primary {
-    background: #4C556E;
+    background: #3d61b4;
   }
   .bg-red{
     background: rgb(224, 15, 15);
@@ -108,7 +113,7 @@ $fa-font-path: "../node_modules/font-awesome/fonts";
   }
   
   .white_primary {
-    background: #2699EC;
+    background: #3d61b4;
     color: white;
   }
   
@@ -126,7 +131,7 @@ $fa-font-path: "../node_modules/font-awesome/fonts";
   }
   
   .border_white_primary {
-    border-bottom: 2px solid #2699EC;
+    border-bottom: 2px solid #3d61b4;
   
   }
   
@@ -264,19 +269,19 @@ $fa-font-path: "../node_modules/font-awesome/fonts";
   button {
   
     background-color: transparent;
-    border-color: #2699EC;
+    border-color: #3d61b4;
   }
   
   .button-hover {
   
     background-color: #fcfcfc;
-    border-color: #2699EC;
+    border-color: #3d61b4;
   }
   
   button.button-hover {
   
     background-color: #fcfcfc;
-    border-color: #2699EC;
+    border-color: #3d61b4;
   }
   
   button[type=primary] {
@@ -318,6 +323,11 @@ $fa-font-path: "../node_modules/font-awesome/fonts";
   .padding-40 {
     padding: 20px;
   }
+
+  .padding-50 {
+    padding: 50px;
+  }
+  
   
   .padding {
     padding: 5px;
@@ -406,7 +416,15 @@ $fa-font-path: "../node_modules/font-awesome/fonts";
   .padding-right-30 {
     padding-right: 15px;
   }
+
+  .padding-right-40 {
+    padding-right: 20px;
+  }
   
+  .padding-right-50 {
+    padding-right: 25px;
+  }
+
   .margin-10 {
     margin: 5px;
   }
@@ -417,6 +435,10 @@ $fa-font-path: "../node_modules/font-awesome/fonts";
   
   .margin-40 {
     margin: 20px;
+  }
+
+  .margin-50 {
+    margin: 50px;
   }
   
   .margin-top-20 {
@@ -446,6 +468,11 @@ $fa-font-path: "../node_modules/font-awesome/fonts";
   .margin-bottom-40 {
     margin-bottom: 40px;
   }
+
+  .margin-bottom-70 {
+    margin-bottom: 70px;
+  }
+  
   
   .height-20 {
     height: 10px;
@@ -527,9 +554,17 @@ $fa-font-path: "../node_modules/font-awesome/fonts";
   .margin-left-20 {
     margin-left: 20px;
   }
+
+  .margin-left-30 {
+    margin-left: 30px;
+  }
   
   .margin-left-40 {
     margin-left: 40px;
+  }
+
+  .margin-left-50 {
+    margin-left: 50px;
   }
   
   .radius-50 {
@@ -676,9 +711,24 @@ $fa-font-path: "../node_modules/font-awesome/fonts";
   
   
   
-  
-  
-  
+  .order {
+    height: 2px;
+    width: 50px;
+  }
+  .bg-btn {
+    background: #143779;
+    color: white;
+  }
+  .icon-17 {
+    width: 34px;
+    height: 34px;
+  }
+  .borderleft {
+    border-left: 5px solid #143779;
+    height: 14px;
+    margin-top: 5px;
+    margin-left: 15px;
+  }
   
   .dotter {
     border-bottom: 1px dotted #4C556E;
@@ -797,4 +847,12 @@ $fa-font-path: "../node_modules/font-awesome/fonts";
   
   ion-header{
     padding-top:20px;
+  }
+
+  .no-border{
+    border:0px;
+  }
+
+  .cur-po{
+    cursor: pointer;
   }

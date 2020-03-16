@@ -1,0 +1,25 @@
+.dan {
+    width: 20%;
+    height: 400px;
+    background: #2d9149;
+    color: #ffffff;
+    text-align: center;
+    line-height: 400px;
+}
+.pi {
+    width: 20%;
+    height: 400px;
+    background: #ed9605;
+    color: #ffffff;
+    text-align: center;
+    line-height: 400px;
+}
+.inf {
+    position: relative;
+    font-size: 300px;
+    right: 0;
+    top: -400px;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    cursor: pointer;
+}

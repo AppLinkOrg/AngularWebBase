@@ -25,7 +25,7 @@ export class AppBase implements OnInit {
     public static CurrentRoute: Router = null;
     public static Current:AppBase=null;
     public static myapp: AppComponent = null;
-    public static UNICODE = "ms";
+    public static UNICODE = "zsd";
 
     public statusBarStyle = "X";//{DARK}
     public uploadpath: string = ApiConfig.getUploadPath();
