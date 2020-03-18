@@ -10,7 +10,8 @@ import { HomeComponent } from './home/home.component';
 import { ShibieComponent } from './shibie/shibie.component';
 import { DetailComponent } from './detail/detail.component';
 import { MoredetailComponent } from './moredetail/moredetail.component';
-import { FileUploadModule } from 'ng2-file-upload';
+import {FormsModule} from '@angular/forms';
+import { NgxUploaderModule } from 'ngx-uploader';
 @NgModule({
   declarations: [
     AppComponent,
@@ -24,7 +25,8 @@ import { FileUploadModule } from 'ng2-file-upload';
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-    FileUploadModule
+    FormsModule,
+    NgxUploaderModule
   ],
   providers: [InstApi],
   bootstrap: [AppComponent]

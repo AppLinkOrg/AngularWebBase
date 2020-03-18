@@ -1,1 +1,1 @@
-applink-cli syncapi ng alucard263096 seatmap ./src/providers
+applink-cli syncapi ng alucard263096 zsd  ./src/providers
